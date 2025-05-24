@@ -126,7 +126,4 @@ The system provides clear error messages for:
 - Non-existent codes
 - Missing or invalid input data
 - Internal processing errors
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
+  
