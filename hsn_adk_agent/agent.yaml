@@ -1,0 +1,5 @@
+name: hsn_validation_agent
+description: An agent that validates HSN codes using master data
+language: en
+default_intents:
+  - validate_hsn_code

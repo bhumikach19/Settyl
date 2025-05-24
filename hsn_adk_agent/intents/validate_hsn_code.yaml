@@ -1,0 +1,17 @@
+name: validate_hsn_code
+training_phrases:
+  - "Check HSN code 01012100"
+  - "Is 01011010 a valid HSN code?"
+  - "Validate 01 and 0101"
+  - "Tell me about HSN 010121"
+  - "I want to verify 01011010"
+  - "Is 01 valid?"
+  - "Can you validate 0101, 010110?"
+parameters:
+  - name: hsn_code
+    entity: @hsn_code
+    is_list: true
+    required: true
+fulfillment:
+  webhook:
+    url: http://localhost:8000/webhook

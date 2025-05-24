@@ -1,0 +1,4 @@
+name: hsn_code
+type: REGEX
+regex: \b\d{2,8}\b
+description: HSN code from 2 to 8 digits
